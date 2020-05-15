@@ -1,0 +1,250 @@
+* {
+  font-family: 'Manrope', sans-serif;
+}
+/* Ils seront affiché avec du js -> plus rapide et efficace que php
+#creation,#consultation{
+  display:none;
+}
+*/
+
+.jumbotron {
+  background-image: url("../images/violet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+}
+
+.title {
+  margin-top: 100px;
+  font-size: 70px;
+  text-transform:
+}
+
+.jumbotron>h1{
+  color:#541388 !important;
+}
+
+.cover {
+  color:#F1E9DA;
+  margin-top:30px;
+  font-size: 1.5em;
+}
+
+.btn-go {
+  margin-top:100px;
+  width:300px;
+  height:60px;
+  border:3px solid black;
+  background-color:transparent;
+}
+
+.btn-go:hover{
+    box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+    color:white;
+    text-decoration: none;
+}
+
+.btn-go>a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover{
+  color:white;
+  text-decoration: none;
+}
+
+/* choix
+#form {
+  display: none;
+}
+*/
+
+#form-2 {
+  margin-top:0px;
+}
+
+.sub {
+  font-size:15px;
+  color:#2E294E;
+}
+
+.fm0{
+  border: 1px solid #541388;
+}
+
+.fm1 {
+
+  background-image: url("../images/woman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.h3-form {
+  margin-top: 20px;
+  color:#541388;
+  text-transform: uppercase;
+}
+
+.text-attention{
+  margin-top: 30px;
+  color:#541388 !important;
+}
+
+#creer {
+  margin-top:30px;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top:20px;
+}
+
+
+input[type="checkbox"]:checked {
+  background-color: #541388;
+  background-image: url("../images/tick.png");
+  background-repeat: no-repeat;
+  background-size:20px;
+  background-position: center;
+  margin:0px;
+  position: relative;
+}
+
+input[type="checkbox"]:hover {
+  box-shadow: 9px 12px 28px -9px #541388;
+}
+
+#consulter {
+  margin-top:30px;
+  cursor: pointer;
+
+}
+
+.fm {
+  border: 1px solid #541388;
+}
+
+.fm2 {
+  background-image: url("../images/party.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-submit {
+  margin-top:80px;
+  width: 500px;
+  height: 50px;
+}
+
+.btn-submit {
+  background-color:#541388 !important;
+  border:2px solid #541388 !important;
+}
+
+.btn-submit:hover {
+  background-color:white !important;
+  color:#541388 !important;
+  border:2px solid #541388 !important;
+}
+
+/* Troisième partie - Création */
+
+.creation {
+  margin-top:100px;
+  border:3px solid #541388;
+}
+
+.creation>* {
+  margin-top:30px;
+}
+.creation>h1{
+  color: #541388;
+  text-transform: uppercase;
+}
+
+.creation>h3{
+  color: #91171F;
+  font-size:20px;
+}
+
+.creation>p {
+  font-style: italic;
+
+}
+
+#code {
+  color: #541388;
+}
+
+input[type="text"],textarea{
+  outline: none;
+  border:1px solid #541388;
+  border-radius:10px;
+}
+
+.infos {
+  font-size: 15px;
+  color:#541388;
+}
+
+.btn-envoie{
+  background-color:white !important;
+  color:#541388 !important;
+  border:2px solid #541388 !important;
+}
+.btn-envoie:hover{
+  background-color:white !important;
+  color:#541388 !important;
+  border:2px solid #541388 !important;
+}
+
+/* Consutlation */
+.consultation{
+  margin-top:100px;
+  border:3px solid #541388;
+}
+
+.consultation>* {
+  margin-top:30px;
+}
+.consultation>h1{
+  color: #541388;
+  text-transform: uppercase;
+}
+
+.consultation>h2{
+  color: #541388;
+}
+
+.consultation>p {
+  font-style: italic;
+
+}
+
+
+/* footer */
+.page-footer{
+  background-color: #541388;
+  color: grey;
+  margin-top: 20px;
+  font-size:15px;
+  height: 50px;
+}
